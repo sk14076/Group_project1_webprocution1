@@ -1,0 +1,427 @@
+/* styling by Kevin */
+
+*{
+    gap: 1rem;
+}
+.announcement{
+    flex-grow: 1;
+}
+    .announcement h5{
+        margin-block: 5px;
+        font-size: 13px;
+        flex-grow: 1;
+        font-family: "SF Pro";
+        letter-spacing: 0px;
+        word-spacing: -1px;
+    }
+.apple_container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;   
+}
+.banner1{
+    background-color: #fbfbfd;
+    max-width: 100%;
+    align-items: center;
+
+}
+.banner1 img{
+    max-width: 42rem;
+    flex-grow: 1;
+}
+.dscrt1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3%;
+    line-height: 0px;
+}
+    .dscrt1 h1{
+        font-family: "SF Pro";
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    .dscrt1 h2{
+        font-family: "SF Pro";
+        font-size: 30px;
+    }
+    .dscrt1 a{
+        padding-right: 1%;
+        font-family: "SF Pro";
+        font-size: 20px;
+        color: #006fee;
+    }
+.banner2{
+    background-color: #fbfbfd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.banner2 img{
+    max-width: 55rem;
+    flex-grow: 1;
+}
+.dscrt2{
+    margin-top: 5%;
+    font-family: "SF Pro";    
+    line-height: 15px;
+}
+    .dscrt2 h1{
+        font-family: "SF Pro";
+        font-size: 50px;
+    }
+    .dscrt2 h2{
+        font-family: "SF Pro";
+        font-size: 25px;
+    }
+    .dscrt2 a{
+        padding-right: 5%;
+        font-family: "SF Pro";
+        font-size: 20px;
+        color: #006fee;
+    }
+.banner3{
+    background-color: #fbfbfd;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.banner3 img{
+    max-width: 76rem;
+    flex-grow: 1;
+
+}
+.dscrt3{
+    margin-top: 3%;
+    line-height: 8px;    
+}
+    .dscrt3 h1{
+        margin-top: 25px;
+        font-family: "SF Pro";
+        font-size: 45px;
+    }
+    .dscrt3 h2{
+        font-family: "SF Pro";
+        font-size: 25px;
+        margin-bottom: 30px;
+
+    }
+    .dscrt3 h3{
+        font-family: "SF Pro";
+        font-size: 22px;
+        color: palevioletred;
+        margin-bottom: 30px;
+    }
+    .dscrt3 a{
+        padding-right: 5%;
+        font-family: "SF Pro";
+        font-size: 20px;
+        color: #006fee;
+    }
+
+.banner4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+    .banner4-1{
+        background-color: #fbfbfd;
+        align-items: center;
+        width: 50%;
+        font-family: "SF Pro";
+    }
+    .dscrt4-1{
+        margin-top: 10%;
+        line-height: 15px; 
+    }
+        .dscrt4-1 h1{
+            margin-top: 25px;
+            font-family: "SF Pro";
+            font-size: 40px;
+        }
+        .dscrt4-1 h2{
+            font-family: "SF Pro";
+            font-size: 15px;
+            margin-bottom: 15px;
+
+        }
+        .dscrt4-1 a{
+            padding-right: 5%;
+            font-family: "SF Pro";
+            font-size: 20px;
+            color: #006fee;
+        }
+
+    .banner4-1 img{
+        max-width: 38rem;
+        max-height: 40rem;
+        padding-block: 7rem ;
+        flex-grow: 1;
+    }
+    .banner4-2{
+        align-items: center;
+        background-color: #000000;
+        width: 50%;
+        position: relative;
+
+    }
+    .dscrt4-2{
+        float: center;
+        position: absolute;
+        left: 30%;
+        top: 5%;
+        z-index: 1;
+        color: white;
+    }
+        .dscrt4-2 h1{
+            margin-top: 25px;
+            font-family: "SF Pro";
+            font-size: 40px;
+        }
+        .dscrt4-2 h2{
+            font-family: "SF Pro";
+            font-size: 15px;
+            margin-bottom: 15px;
+
+        }
+        .dscrt4-2 a{
+            padding-right: 5%;
+            font-family: "SF Pro";
+            font-size: 20px;
+            color: #006fee;
+        }
+    .banner4-2 img{
+        z-index: 0;
+        max-width: 100%;
+        max-height: 100%;
+        left: 0px;
+        top: 0px;
+        position: banner4-2;
+        flex-grow: 1;
+        }
+.banner5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+    .banner5-1{
+        align-items: center;
+        background-color: #ffffff;
+        width: 50%;
+        position: relative;
+    }
+    .dscrt5-1{
+        align-items: center;
+        float: center;
+        position: absolute;
+        z-index: 1;
+        left: 15%;
+    }
+        .dscrt5-1 h1{
+            margin-top: 0px;
+            font-family: "SF Pro";
+            font-size: 40px;
+        }
+        .dscrt5-1 h2{
+            font-family: "SF Pro";
+            font-size: 20px;
+            margin-bottom: 10px;
+
+        }
+        .dscrt5-1 h6{
+            margin-top: 35px;
+            margin-bottom: -5px;
+            font-family: "SF Pro";
+            font-size: 15px;
+        }
+        .dscrt5-1 a{
+            font-family: "SF Pro";
+            font-size: 20px;
+            color: #006fee;
+        }
+    .banner5-1 img{
+        max-width: 100%;
+        max-height: 100%;
+        left: 0px;
+        top: 0px;
+        position: banner5-1;
+        flex-grow: 1;
+    }
+
+    .banner5-2{
+        background-color: #ebebed;
+        width: 50%;
+        position: relative;
+        align-items: center;
+
+    }
+    .dscrt5-2{
+        left: 35%;
+        bottom: 12%;
+        float: center;
+        position: absolute;
+        z-index: 1;
+    }
+        .dscrt5-2 h1{
+            font-family: "SF Pro";
+            font-size: 40px;
+            margin-bottom: -10px;
+        }
+        .dscrt5-2 h2{
+            font-family: "SF Pro";
+            font-size: 20px;
+        }
+        .dscrt5-2 a{
+            padding-right: 5%;
+            font-family: "SF Pro";
+            font-size: 18px;
+            color: #006fee;
+        }
+    .banner5-2 img{
+        max-width: 100%;
+        max-height: 100%;
+        left: 0px;
+        top: 0px;
+        bottom: 10px;
+        position: banner5-2;
+        flex-grow: 1;
+    }
+
+.banner6{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+    .banner6-1{
+        background-color: #fafafa;
+        width: 50%;
+        position: relative;
+        align-items: center;
+
+    }
+    .dscrt6-1{
+        float: center;
+        position: absolute;
+        left: 30%;
+        top: -15%;
+        z-index: 1;
+    }
+        .dscrt6-1 h1{
+            font-family: "SF Pro";
+            font-size: 40px;
+            margin-bottom: -10px;
+        }
+        .dscrt6-1 h2{
+            font-family: "SF Pro";
+            font-size: 20px;
+        }
+        .dscrt6-1 a{
+            padding-right: 5%;
+            font-family: "SF Pro";
+            font-size: 18px;
+            color: #006fee;
+        }
+    .banner6-1 img{
+        max-width: 100%;
+        max-height: 100%;
+        margin-top: 43%;
+        flex-grow: 1;
+    }
+    .banner6-2{
+        align-items: center;
+        position: relative;
+        width: 50%;
+    }
+    .dscrt6-2{
+        left: 40%;
+        bottom: 4%;
+        float: center;
+        position: absolute;
+        z-index: 1;
+    }
+        .dscrt6-2 a{
+            font-family: "SF Pro";
+            font-size: 20px;
+            color: #006fee;
+        }
+    .banner6-2 img{
+        max-width: 100%;
+        max-height: 100%;
+        bottom: 10px;
+        flex-grow: 1;
+    }
+/* End of Kevin's styling */
+
+
+
+
+
+
+/* Ahmad Kalam styling */
+
+html{
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+
+}
+
+header{
+     position : fixed;
+     top: 0;
+     z-index: 1400rem;
+     background-color: black;
+     backdrop-filter: blur(2rem);
+}
+
+.nav-list{ 
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -1rem;
+}
+.nav-link{
+    font-size: 1.4rem ;
+    color: white;
+    padding: 0 1rem;
+    
+}
+.nav-link:hover{
+    opacity:  .7;
+}
+.nav-link-apple{
+    width: 1.6rem;
+    height: 4.4rem;
+    /*background: ;*/
+}
+
+.nav-link-search{
+    width: 1.6rem;
+    height: 4.4rem;
+    /*background: ;*/
+}
+
+.iphone-11-pro{
+    height: 69.2rem;
+    margin-top: 4.4rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*End of Ahmad Kalam styling */
